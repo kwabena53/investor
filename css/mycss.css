@@ -1,0 +1,91 @@
+
+/*css for home page*/
+.login-area{
+	padding: 4%;
+	background-color: white;
+	border-radius: 2%;
+	margin-left: 0%;
+	max-width: 40%;
+	min-width: 20%;
+	max-height: 50%;
+}
+
+body{
+	background-color: black;
+}
+footer{
+	margin-top: 5%;
+	height: 50px;
+}
+footer div{
+	color: white;
+	background-color: #333;
+}
+
+.opButton{
+ width: 70%;
+ height: 30%;
+ color: white;
+ text-align: center;
+ /*text-decoration: none;*/
+    
+}
+
+.paButton{
+    width: 70%;
+    background-color: rgb(51, 153, 255);
+    text-align: center;
+    margin-left: 20%;
+    padding: 2.5%;
+    border-radius: 6%;
+    margin-top: 5%;
+    margin-bottom: 5%
+    /*text-decoration: none;*/
+}
+
+.paButton:hover{
+    background-color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    background-color: white;
+}
+
+a:active{
+    text-decoration: none;
+}
+
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('../images/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        .jssora12l, .jssora12r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 30px;
+            height: 46px;
+            cursor: pointer;
+            background: url('img/a12.png') no-repeat;
+            overflow: hidden;
+        }
+        .jssora12l { background-position: -16px -37px; }
+        .jssora12r { background-position: -75px -37px; }
+        .jssora12l:hover { background-position: -136px -37px; }
+        .jssora12r:hover { background-position: -195px -37px; }
+        .jssora12l.jssora12ldn { background-position: -256px -37px; }
+        .jssora12r.jssora12rdn { background-position: -315px -37px; }
